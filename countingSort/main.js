@@ -2,7 +2,7 @@ function countSort(arr) {
     
     const size = arr.length;
     const limit = size/2;
-    const phrase = Array.from({length: (limit+1)}, () => []);
+    const phrase = Array.from({length: 100}, () => []);
     for(let i = 0; i < size; i++){
         
         if (i < limit){

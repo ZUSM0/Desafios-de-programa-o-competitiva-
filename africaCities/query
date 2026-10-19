@@ -1,0 +1,2 @@
+select ct.NAME from CITY as ct INNER JOIN COUNTRY as cout on ct.COUNTRYCODE = cout.CODE
+WHERE cout.CONTINENT = 'Africa';
