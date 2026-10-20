@@ -1,3 +1,6 @@
+// Minha primeira tentativa de resolver o problemas. 
+// O código passa em todos os casos, excerto no caso de teste 5. 
+
 function countSort(arr) {
     
     const size = arr.length;
